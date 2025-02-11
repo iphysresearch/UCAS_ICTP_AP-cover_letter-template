@@ -65,8 +65,8 @@ The template includes detailed annotations (comments) to guide you through each 
 Here’s an example of how the template looks when customized with different logos and colors:
 | **UCAS Logo** | **ICTP-AP Logo** |
 |---------------|------------------|
-| ![UCAS Black](example_ucas_black.png) | ![ICTP-AP Black](example_ictp_black.png) |
-| ![UCAS Blue](example_ucas_blue.png) | ![ICTP-AP Blue](example_ictp_blue.png) |
+| ![UCAS Black](ucas_black.jpg) | ![ICTP-AP Black](ictp-ap_black.jpg) |
+| ![UCAS Blue](ucas_blue.jpg) | ![ICTP-AP Blue](ictp-ap_blue.jpg) |
 
 ---
 
@@ -94,7 +94,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## Contact
 For questions or feedback, please contact:  
-📧 [your.email@ucas.ac.cn](mailto:your.email@ucas.ac.cn)  
+📧 [hewang@ucas.ac.cn](mailto:hewang@ucas.ac.cn)  
 🌐 [GitHub Repository](https://github.com/iphysresearch/UCAS_ICTP_AP-cover_letter-template)
 
 ---
