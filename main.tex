@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{parskip} % 段落间距
+\usepackage{xcolor}  % 用于颜色支持
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{newtxtext,newtxmath} % Times New Roman 样式
+
+% 定义自定义颜色
+% https://m.fontke.com/tool/cmyk/94,75,10,0
+% https://www.colorcodeslab.com/zh/hex/114d93/
+\definecolor{MyBlue}{RGB}{17,77,147}  
+\definecolor{MyGray}{gray}{0.5}
+\definecolor{MyBlack}{gray}{0.1}
+
+% 定义颜色切换命令
+% \newcommand{\MyColor}{MyBlack} % 默认使用 MyBlack
+\newcommand{\MyColor}{MyBlue} % 切换为 MyBlue
+
+% 设置页面边距
+\geometry{
+  top=3cm,
+  bottom=2cm,
+  left=2.5cm,
+  right=2.5cm
+}
+
+% 设置页眉和页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=0.6\textwidth]{logo_ucas.jpg}} % 国科大 logo
+% \fancyhead[L]{\includegraphics[width=0.6\textwidth]{logo_ictp-ap.jpg}} % ICTP-AP logo
+\fancyhead[R]{\textcolor{\MyColor}{\today}} % [\today] 自动生成当前日期
+
+
+\begin{document}
+
+\bigskip % Vertical whitespace
+\vspace*{1cm} % 使用 \vspace* 强制增加垂直空间
+
+\hfill
+\begin{tabular}{l @{}}
+% \hfill \today \bigskip\\ % Date
+\hfill \textbf{\textcolor{\MyColor}{[Name]}} \\ % [Name] 替换为你的名字
+\hfill \textcolor{MyGray}{Email: [your.email@ucas.ac.cn]} \\ % [your.email@ucas.ac.cn] 替换为你的邮箱
+\hfill \textcolor{MyGray}{No.55, Zhongguancun East St. Haidian Dist.} \\ % 地址，无需修改
+\hfill \textcolor{MyGray}{Beijing, P. R. China, 100190} \\ % 地址，无需修改
+\hfill \textcolor{MyGray}{Phone: [(123) 456-7890]} \\ % [(123) 456-7890] 替换为你的电话号码
+\end{tabular}
+
+
+\bigskip % Vertical whitespace
+
+\vspace*{1cm} % 使用 \vspace* 强制增加垂直空间
+
+% ADDRESSEE AND GREETING
+\begin{tabular}{@{} l}
+	\textbf{\textcolor{\MyColor}{Professor [Chandeller Bing]}} \\ % [Chandeller Bing] 替换为编辑的名字
+	\textbf{\textcolor{\MyColor}{Editor-in-chief}} \\ % [Editor-in-chief] 替换为编辑的职位
+	\textit{\textcolor{\MyColor}{[Journal of Old Friends]}} % [Journal of Old Friends] 替换为目标期刊名称
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+% 信件正文
+\begin{flushleft}
+    \textbf{\textcolor{\MyColor}{Dear Editor,}} % [Dear Editor] 替换为适当的称呼
+\end{flushleft}
+
+\vspace{0.5cm}
+
+% 信件内容
+\noindent
+We are pleased to submit our manuscript entitled "\textbf{Title of Your Paper}" for consideration for publication in the APS journal. This work presents [briefly describe the main focus and findings of your research]. We believe that our findings will be of interest to the readers of [specific APS journal name] due to [reason why your work is relevant to the journal].
+
+\vspace{0.5cm}
+
+Our study provides new insights into [mention the specific field or topic], and we have employed [mention any specific methodologies or approaches] to ensure the robustness of our results. We believe that our work contributes significantly to the ongoing research in this area and opens up new avenues for further investigation.
+
+\vspace{0.5cm}
+
+We confirm that this manuscript has not been published elsewhere and is not under consideration by any other publication. All authors have approved the manuscript and agree with its submission to [specific APS journal name].
+
+\vspace{0.5cm}
+
+Thank you for considering our submission. We look forward to your positive response.
+
+\vspace{1cm}
+
+% 作者信息
+\begin{flushright}
+    \begin{minipage}{1.0\textwidth} % 调整宽度以适应布局
+        \raggedright
+        \textbf{\textcolor{\MyColor}{Sincerely,}} \\
+        \vspace{0.5cm}
+        \textbf{\textcolor{\MyColor}{[Your Name]}}[, Ph.D. candidate] \\ % [Your Name] 替换为你的名字，[, Ph.D. candidate] 可选，根据你的身份修改
+        International Centre for Theoretical Physics Asia-Pacific \\
+        University of Chinese Academy of Sciences   \\
+    \end{minipage}
+\end{flushright}
+
+\end{document}
