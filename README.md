@@ -1,4 +1,4 @@
-# UCAS, ICTP-AP Cover Letter Template (国科大投稿信模板)
+# UCAS, ICTP-AP Cover Letter Template
 
 ![LaTeX](https://img.shields.io/badge/LaTeX-Professional-blue) ![Overleaf](https://img.shields.io/badge/Overleaf-Compatible-green) ![GitHub stars](https://img.shields.io/github/stars/iphysresearch/UCAS_ICTP_AP-cover_letter-template?style=social) ![GitHub](https://img.shields.io/github/license/iphysresearch/UCAS_ICTP_AP-cover_letter-template)
 
