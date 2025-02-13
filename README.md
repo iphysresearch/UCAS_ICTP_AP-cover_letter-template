@@ -18,7 +18,13 @@ A professional and customizable LaTeX cover letter template designed for academi
 
 ## Quick Start
 ### Option 1: Use on Overleaf
-1. Click the link below to open the template directly in Overleaf:     [![Overleaf Template](https://img.shields.io/badge/Overleaf-Template-blue)](https://www.overleaf.com/latex/templates/ucas-ictp-ap-cover-letter-template/xyz123)  
+
+To copy the project on Overleaf, follow these steps:
+1. Open the project link:  [![Overleaf Project](https://img.shields.io/badge/Overleaf-Template-blue)](https://www.overleaf.com/read/fxkcbtrpfzht#338271)
+2. Select the **Menu** button (top-left corner).  
+3. Choose **Copy Project**.  
+4. A new copy of the project will be created in your Overleaf account, ready for customization.
+
 
 ### Option 2: Download and Upload to Overleaf
 1. **Download the Repository**:
